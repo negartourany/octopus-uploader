@@ -1,0 +1,18 @@
+# .NET Build artifacts
+bin/
+obj/
+
+# Local Azure Storage Emulator data
+azurite-data/
+*.vhd
+
+# Frontend dependencies & build outputs
+node_modules/
+client/node_modules/
+.vite/
+
+# Environment & Editor settings
+.vscode/
+.idea/
+appsettings.Development.json
+*.user

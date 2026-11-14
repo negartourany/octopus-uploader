@@ -1,0 +1,6 @@
+@octopus_uploader_HostAddress = http://localhost:5159
+
+GET {{octopus_uploader_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
